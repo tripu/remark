@@ -6,8 +6,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gnab/remark.git"
+    "url": "https://github.com/tripu/remark.git"
   },
+  "bugs": {
+    "url": "https://github.com/tripu/remark/issues"
+  },
+  "homepage": "https://github.com/tripu/remark/blob/develop/README.md",
   "license": "MIT",
   "devDependencies": {
     "browserify": "^13.0.0",
@@ -26,5 +30,19 @@
   },
   "scripts": {
     "test": "node make test"
-  }
+  },
+  "engines": {
+    "node": "16 || 18 || 14",
+    "npm": "8 || 7"
+  },
+  "contributors": [
+    {
+      "name": "Ole Petter Bang",
+      "url": "https://github.com/gnab"
+    },
+    {
+      "name": "tripu",
+      "url": "https://tripu.info/"
+    }
+  ]
 }
